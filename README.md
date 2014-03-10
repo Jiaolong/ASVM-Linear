@@ -12,3 +12,5 @@ echo "########## Train adaptive model ###########"
 ./train_asvmlinear data/heart_scale + model_src model_tar
 echo "########## Test adaptive model ###########"
 ./predict data/heart_scale model_tar out.txt
+
+see run_asvm.sh
